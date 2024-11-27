@@ -1,4 +1,35 @@
-.nav-container {
-    width: 33%;
+.body {
+    font-family: sans-serif Arial;
+}
+
+.header {
     display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.menu_ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.Icon {
+    font-size: large;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-size: large;
+}
+
+.menu {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+
 }
