@@ -17,14 +17,17 @@
 }
 
 .Icon {
-    font-size: large;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-left: 40px;
+
 }
 
 .menu a{
     text-decoration: none;
     color: black;
-    padding: 10px 10px;
-    font-size: large;
+    padding: 10px 20px;
+    font-size: 1.5rem;
 }
 
 .menu {
@@ -32,4 +35,8 @@
     text-align: center;
     padding: 10px 20px;
 
+}
+
+.buttons {
+    padding-right: 40px;
 }
