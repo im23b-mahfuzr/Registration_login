@@ -1,6 +1,6 @@
 .body {
     font-family: sans-serif Arial;
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -8,7 +8,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     align-items: center;
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.75);
 }
 
 .menu_ul {
@@ -61,4 +61,87 @@
 
 .button:hover{
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.075);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-form {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    width: 775px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.submit-form {
+    text-align: center;
+}
+
+.submit {
+    width: 800px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: lawngreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: lawngreen;
+}
+
+.container-top {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-top span a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container-top span a:hover {
+    text-decoration: underline;
+}
+
+div header{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 12px;
+}
+
+div header {
+    font-family: Arial;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

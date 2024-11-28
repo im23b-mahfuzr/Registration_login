@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
+<div class="header">
   <div class="Icon">Projekt RM</div>
   <div class="menu">
     <ul class="menu_ul">
@@ -20,13 +20,14 @@
     <button class="button" id="registerB">Sign Up</button>
     <button class="button" id="loginB">Sign In</button>
   </div>
-</header>
-<div class="container">
+</div>
+
+<section class="container">
   <div class="container-top">
-    <span>Have an Account?<a href="#Login"></a>Login</span>
-    <header>Sign Up</header>
+    <span>Have an Account?<a href="#Login"> Login</a></span>
   </div>
   <div class="form">
+    <header>Sign Up</header>
     <div class="input-form">
       <input type="text" class="input" id="Firstname" placeholder="Firstname">
     </div>
@@ -39,10 +40,12 @@
     <div class="input-form">
       <input type="password" class="input" id="password" placeholder="Password">
     </div>
-    <div class="form-buttons">
-      <button class="form-button">Sign Up</button>
+    <div class="submit-form">
+      <input type="submit" class="submit" value="register">
     </div>
   </div>
-</div>
+</section>
+
+
 </body>
 </html>
