@@ -1,5 +1,6 @@
 .body {
     font-family: sans-serif Arial;
+    color: whitesmoke;
 }
 
 .header {
@@ -11,15 +12,18 @@
 
 .menu_ul {
     list-style-type: none;
-    overflow: hidden;
     padding: 10px 20px;
     display: flex;
+
 }
 
 .Icon {
+    text-align: left;
     font-family: sans-serif;
     font-size: 1.5rem;
     padding-left: 40px;
+    width: 33%;
+
 
 }
 
@@ -33,10 +37,19 @@
 .menu {
     display: block;
     text-align: center;
-    padding: 10px 20px;
+    justify-content: center;
+    width: 33%;
 
 }
 
 .buttons {
-    padding-right: 40px;
+    text-align: right;
+    width: 33%;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    height : 40px;
 }
