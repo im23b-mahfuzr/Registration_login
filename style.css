@@ -70,27 +70,26 @@ body {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.075);
 }
 
-.container {
+#container {
     display: flex;
-    position: absolute;
+    left: 250px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 800px;
     width: 500px;
-    position: absolute;
+    position: relative;
 }
 
-.login-container{
+#login-container{
     display: flex;
-    position: absolute;
     right: -700px ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 800px;
     width: 500px;
-    position: absolute;
+    position: relative;
 }
 
 .login-form {
@@ -191,13 +190,13 @@ div header {
 
 .form-box{
     position: absolute;
-    left: 400px;
+    left: 335px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 600px;
     width: 900px;
-    border: 2px solid red;
+   overflow: hidden;
 }
 
 .checkbox-area {

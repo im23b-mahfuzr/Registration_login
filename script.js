@@ -1,14 +1,19 @@
 const registerB = document.getElementById('registerB')
 const loginB = document.getElementById('loginB')
-const container= document.getElementsByClassName('container')
-const loginContainer = document.getElementsByClassName('login-container')
+const container= document.getElementById('container')
+const loginContainer = document.getElementById('login-container')
 
-function clickLogin() {
-    loginContainer.style.left = "550px"
-    container.style.right = "-300px"
-}
 
-function clickRegister() {
-    loginContainer.style.left = "-290px"
-    container.style.right = "560px"
-}
+registerB.addEventListener('click', function clickRegister(){
+        container.style.left = "250px"
+        loginContainer.style.right = "-650px"
+        container.style.transition = "2s ease-in-out"
+        loginContainer.style.transition = "2s ease-in-out"
+});
+
+loginB.addEventListener('click', function clickLogin() {
+    loginContainer.style.right = "250px"
+    container.style.left = "-650px"
+    container.style.transition = "2s ease-in-out"
+    loginContainer.style.transition = "2s ease-in-out"
+});

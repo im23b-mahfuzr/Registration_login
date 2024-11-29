@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>register</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 <div class="header">
@@ -17,12 +18,12 @@
     </ul>
   </div>
   <div class="buttons">
-    <button class="button" id="registerB" onclick="clickRegister()">Sign Up</button>
-    <button class="button" id="loginB" onclick="clickLogin()">Sign In</button>
+    <button class="button" id="registerB">Sign Up</button>
+    <button class="button" id="loginB">Sign In</button>
   </div>
 </div>
 <section class="form-box">
-  <div class="container">
+  <div class="container" id="container">
     <div class="container-top">
       <span>Have an Account?<a href="#Login"> Login</a></span>
     </div>
@@ -49,7 +50,7 @@
       </div>
     </div>
   </div>
-  <div class="login-container">
+  <div class="login-container" id="login-container">
     <div class="login-container-top">
       <span>Don't have an Account?<a href="#Login"> Register</a></span>
     </div>
@@ -67,6 +68,5 @@
     </div>
   </div>
 </section>
-<script src="script.js" defer></script>
 </body>
 </html>
