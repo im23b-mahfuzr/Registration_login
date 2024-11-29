@@ -1,4 +1,7 @@
-.body {
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: repeat;
     font-family: sans-serif Arial;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
@@ -9,6 +12,7 @@
     padding: 10px 20px;
     align-items: center;
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.75);
+    font-family: "Arial";
 }
 
 .menu_ul {
@@ -20,7 +24,7 @@
 
 .Icon {
     text-align: left;
-    font-family: sans-serif;
+    font-family: "Arial Black";
     font-size: 1.5rem;
     padding-left: 40px;
     width: 33%;
@@ -43,7 +47,8 @@
 }
 
 .menu a:hover{
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
 }
 
 .buttons {
@@ -57,6 +62,7 @@
     width: 150px;
     height : 40px;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .button:hover{
@@ -70,7 +76,6 @@
     justify-content: center;
     align-items: center;
     height: 800px;
-    ;
 }
 
 .login-container{
@@ -87,7 +92,6 @@
     height: 500px;
     width: 800px;
     padding: 20px;
-    background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -98,9 +102,8 @@
     height: 500px;
     width: 800px;
     padding: 20px;
-    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
 
 .input-form {
@@ -142,6 +145,7 @@
 .container-top {
     text-align: center;
     margin-bottom: 20px;
+    font-family: "Arial Black";
 }
 
 .login-container-top{
