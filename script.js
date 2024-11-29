@@ -3,12 +3,12 @@ const loginB = document.getElementById('loginB')
 const container= document.getElementsByClassName('container')
 const loginContainer = document.getElementsByClassName('login-container')
 
-loginB.addEventListener("click" , function clickLogin() {
-    loginContainer.style.display = "block"
-    container.style.display = "none"
-});
+function clickLogin() {
+    loginContainer.style.left = "550px"
+    container.style.right = "-300px"
+}
 
-registerB.addEventListener("click" , function clickRegister() {
-    loginContainer.style.display = "none"
-    container.style.display = "block"
-});
+function clickRegister() {
+    loginContainer.style.left = "-290px"
+    container.style.right = "560px"
+}
