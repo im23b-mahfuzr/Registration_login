@@ -167,8 +167,10 @@ body {
     text-decoration: none;
 }
 
-.container-top span a:hover {
-    text-decoration: underline;
+
+.login-container-top span a{
+    color: blue;
+    text-decoration: none;
 }
 
 div header{
